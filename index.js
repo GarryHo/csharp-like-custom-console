@@ -11,7 +11,7 @@ class Console
 	Write (txt)
 	{
 		console.log (txt);
-	};
+	}
 
 	Read (inp, cb)
 	{
