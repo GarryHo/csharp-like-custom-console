@@ -23,22 +23,22 @@ class Console
         console.clear ();
     }
 
-	Eval (f)
-	{
-		let result = eval (f);
+    Eval (f)
+    {
+	let result = eval (f);
 
-		console.log (result);
-	}
+	console.log (result);
+    }
 
-	Error (e)
-	{
-		throw e;
-	}
+    Error (e)
+    {
+	throw e;
+    }
 
-	Die ()
-	{
-		process.exit (0);
-	}
+    Die ()
+    {
+	process.exit (0);
+    }
 }
 
 module.exports = Console;
