@@ -23,6 +23,12 @@ Kill the process
 Console.Die();
 ```
 ```js
+const cons = require('csharp-like-custom-console');
+const Console = new cons({
+	inp: process.stdin,
+	out: process.stdout,
+});
+
 Console.Die();
 ```
 Print something 
